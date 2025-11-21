@@ -5,8 +5,8 @@ const Navbar = () => {
   return (
     <nav className="navbar">
         <div className="nav-left">
-            <img src="https://www.udemy.com/staticx/udemy/images/v7/logo-udemy.svg" alt="Udemy" className="logo" />
-            <span className="explore-link">Explore</span>
+            <img src={navLogoData.logoUrl} alt="Udemy" className="logo" />
+            <span className="explore-link">{navLogoData.exploreText}</span>
         </div>
         
         <div className="search-bar">
@@ -15,7 +15,7 @@ const Navbar = () => {
         </div>
 
         <div className="nav-links">
-            <a href="#" className="nav-item">Plans & Pricing</a>
+           
             {navbarLinks.map((link, index) => (
                 <a href="#" key={index} className="nav-item">{link}</a>
             ))}
