@@ -1,7 +1,13 @@
 export const navbarLinks = [
+    "Plans & Pricing",
     "Udemy Business",
     "Teach on Udemy"
 ];
+
+export const navLogoData = {
+    logoUrl: "https://www.udemy.com/staticx/udemy/images/v7/logo-udemy.svg",
+    exploreText: "Explore"
+};
 
 export const heroData = {
     headline: "Jump into learning for less",
